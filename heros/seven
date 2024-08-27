@@ -97,6 +97,6 @@ Standard Level Up Upgrades
 			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 1.000000
 
-Scaling Stats = Tech Power 0.028
+Scaling Stats = Max Move Speed Tech Power 0.028
 New Player Recommended = true
 Lane Testing Recommended = true
