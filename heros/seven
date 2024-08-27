@@ -1,0 +1,102 @@
+gigawatt / seven
+Hero id = 2
+player selectable = true
+disabled = false
+needs testing = false
+in development = false
+assigned players only = false
+bot selectable = true
+limited testing = false
+complexity = 1
+readability = 4
+
+Map starting stats =
+ Max Move Speed = 7
+ Sprint Speed = 0
+ Crouch Speed = 4.75
+ Move Acceleration = 4
+ Light Melee Damage = 63
+ Heavy Melee Damage = 116
+ Max Health = 550
+ Weapon Power = 0
+ Reload Speed = 1
+ Weapon Power Scale = 1
+ Proc Build Up Scale = 1
+ Stamina = 3
+ Base Health Regen = 1.5
+ Stamina Regen Per Second = 0.2
+ Ability Resource Max = 0
+ Ability Resource Regen Per Second = 0
+ Crit Damage Received Scale = 0.75
+ Tech Duration = 1
+ Tech Range = 1
+ Bullet Armor Damage Reduction = 8.000000
+
+Collision Radius = 20
+Collision Height = 80
+Step Height = 32
+
+mapPurchaseBonuses =
+WeaponMod =
+ Tier 1, str Value 6, "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+ Tier 2, str Value 10, "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+ Tier 3, str Value 14, "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+ Tier 4, str Value 18, "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+
+Armor =
+ Tier 1, str Value 11, "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+ Tier 2, str Value 14, "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+ Tier 3, str Value 17, "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+ Tier 4, str Value 20, "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+
+Armor =
+ Tier 1, str Value 4, "MODIFIER_VALUE_TECH_POWER"
+ Tier 2, str Value 8, "MODIFIER_VALUE_TECH_POWER"
+ Tier 3, str Value 12, "MODIFIER_VALUE_TECH_POWER"
+ Tier 4, str Value 16, "MODIFIER_VALUE_TECH_POWER"
+
+Ability unlocks =
+ 1 = 0 souls. 1 unlock
+ 2 = 400 souls. 1 unlock/point
+ 3 = 800 souls. 1 point
+ 4 = 1200 souls. UseStandardUpgrade = true
+ 5 = 1500 souls. 1 unlock
+ 6 = 2200 souls. 1 point. UseStandardUpgrade = true
+ 7 = 3000 souls. 1 unlock
+ 8 = 4500 souls. 1 point. UseStandardUpgrade = true
+ 9 = 6000 souls. 1 point. UseStandardUpgrade = true
+ 10 = 7500 souls. 1 point. UseStandardUpgrade = true
+ 11 = 9000 souls. 1 point. UseStandardUpgrade = true
+ 12 = 10500 souls. 1 point. UseStandardUpgrade = true
+ 13 = 12000 souls. 1 point. UseStandardUpgrade = true
+ 14 = 13000 souls. UseStandardUpgrade = true
+ 15 = 14000 souls. 1 point. UseStandardUpgrade = true
+ 16 = 15000 souls. UseStandardUpgrade = true
+ 17 = 16000 souls. 1 point
+ 18 = 18000 souls. 1 point
+ 19 = 20000 souls. 1 point
+ 20 = 22000 souls. 1 point
+ 21 = 24000 souls. 1 point
+ 22 = 27000 souls. 1 point
+ 23 = 30000 souls. 1 point
+ 24 = 33000 souls. 1 point
+ 25 = 36000 sols. 1 point
+ 26 = 39000 souls. 1 point
+ 27 = 42000 souls. 1 point
+ 28 = 45000 souls. 1 point
+ 29 = 48000 souls. 1 point
+
+Stealth Speed Meters Per Second = 4
+Footstep Sound Travel Distance Meters = 20
+Step Sound Time = 0.28
+
+Standard Level Up Upgrades
+			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.760000
+			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 3.400000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 31.000000
+			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 1.000000
+
+Scaling Stats = Tech Power 0.028
+New Player Recommended = true
+Lane Testing Recommended = true
