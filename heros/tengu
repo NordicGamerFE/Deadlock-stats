@@ -88,6 +88,7 @@ Ability unlocks =
 Stealth Speed Meters Per Second = 4
 Footstep Sound Travel Distance Meters = 20
 Step Sound Time = 0.383
+Step Sound Time Sprinting = 0.383
 
 Standard Level Up Upgrades
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.550000
