@@ -100,7 +100,7 @@ Melee Hit Range 120
 Melee Duration = 1
 Attack T1 Boss Max Range 540
 Attack Trooper Max Range 700
-Melee Charge Range = 0
+Melee Charge Range = 1000
 Barrack Guardian Damage Resist Pct = 67.5
 T1 Boss DPS = 83.6
 T2 Boss DPS = 209
