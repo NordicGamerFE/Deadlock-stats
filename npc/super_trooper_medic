@@ -1,0 +1,113 @@
+weapon info =
+ Spread = 0.5
+ Standing Spread = 1.5
+ Scatter Yaw Scale = 1
+ Shooting Up Spread Penalty = 2
+ Zoom Move Speed Percent = 0.7
+ Shoot Move Speed Percent = 0.7
+ Horizontal Punch = 0
+ Vertical Punch = 0
+ Recoil Recovery Speed = 10
+ Verticall Recoil =
+  Range =
+   -0.2,
+   0.2
+  Burst slope = 0
+  Burst Exponent = 0
+  Burst Constant = 0
+Horizontal Recoil =
+ Range =
+  -0.1,
+  0.1
+ Burst Explonent = 0
+Recoil Speed = 1
+Zoom FOV = 40
+Damage Falloff Start Range = 600
+Damage Falloff End Range = 1400
+Range = 1400
+Bullet Lifetime = 2
+Damage Falloff End Scale = o.3
+Damage Falloff Bias = 0.5
+Bullets = 1
+Cycle Time = 1.03
+Reload Duration = 1.8
+Clip Size = -1
+Burst Shot Count = 1
+Burst Shot Cooldown = 0
+Bullet Gravity Scale 0
+Bullet Radius = 3
+Bullet Drag = 1
+Bullet Drag Bias = 0.5
+Bullet Reflect Scale = 0
+Bullet Reflect Amount = 1
+Bullet Inherit Shooter Velocity Scale = 0
+
+Bullet Speed Curve =
+ spline=
+  x = 0
+  y = 12000
+  Slope Incoming = 0
+  Slope Outgoing = 0,
+
+  x = 100
+  y = 12000
+  Slope Incoming = 0
+  Slope Outgoing = 0
+ tangents =
+  Incoming Tangent = "CURVE_TANGENT_SPLINE"
+  Outgoing Tangent = "CURVE_TANGENT_SPLINE",
+
+  Incoming Tangent = "CURVE_TANGENT_SPLINE"
+  Outgoing Tangent = "CURVE_TANGENT_SPLINE",
+ Domain Mins =
+  0,
+  1
+ Domain Maxs =
+  100,
+  12000
+
+Crit Bonus Start = 1.15
+Crit Bonus End = 1.35
+Crit Bonus Start Range = 500
+Crit Bonus End Range = 1500
+Crit Bonus Against NPCs = 0.25
+Shoot Spread Penalty Per Shot = 0
+Shoot Spread Penalty Decay Delay = 0
+Shoot Spread Penalty Decay = 2
+Recoil Shot Index Recovery Time Factor = 0.25
+Can Zoom = true
+Reload Move Speed = 236.22
+NPC Aiming Spread =
+ 0.2,
+ 0.8
+ Bullet Damage = 36
+Base = trooper_medic
+Class = npc_super_trooper
+Max Health = 260
+Sight Range Players = 700
+Sight Range NPCs = 1600
+Trooper Damage Resist Pct = 55
+T1 Boss Damage Resist Pct = 35
+T2 Boss Damage Resist Pct = 20
+Shield Damage Resist Pct = 80
+Near Death Duration = 1
+Walk Speed = 240
+Run Speed = 433
+Acceleration = 200
+Melee Damage = 25
+Melee Attempt Range = 100
+Melee Hit Range 100
+Melee Duration = 1
+Attack T1 Boss Max Range 540
+Attack Trooper Max Range 700
+Melee Charge Range = 0
+Barrack Guardian Damage Resist Pct = 67.5
+T1 Boss DPS = 83.6
+T2 Boss DPS = 209
+T3 Boss DPS = 209
+Generator Boss DPS = 41.8
+Barrack Boss DPS = 209
+Player DPS = 42
+Trooper DPS = 66.5
+Bound Abilities = ability medic trooper heal
+Model Scale = 1.1
