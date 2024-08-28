@@ -81,8 +81,8 @@ NPC Aiming Spread =
  0.2,
  0.8
  Bullet Damage = 36
-Base = trooper_base
-Class = npc_trooper
+Base = trooper_normal
+Class = npc_super_trooper
 Max Health = 300
 Sight Range Players = 700
 Sight Range NPCs = 1600
