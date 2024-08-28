@@ -1,0 +1,81 @@
+weapon info =
+ Spread = 0.5
+ Standing Spread = 1.5
+ Scatter Yaw Scale = 1
+ Shooting Up Spread Penalty = 0
+ Zoom Move Speed Percent = 0.7
+ Shoot Move Speed Percent = 0.7
+ Horizontal Punch = 0
+ Vertical Punch = 0
+ Recoil Recovery Speed = 10
+ Verticall Recoil =
+  Range =
+   -0.2,
+   0.2
+  Burst slope = 0
+  Burst Exponent = 0
+  Burst Constant = 0
+Horizontal Recoil =
+ Range =
+  -0.1,
+  0.1
+ Burst Explonent = 0
+Recoil Speed = 1
+Zoom FOV = 40
+Damage Falloff Start Range = 2000
+Damage Falloff End Range = 3000
+Range = 3500
+Bullet Lifetime = 2
+Damage Falloff End Scale = o.3
+Damage Falloff Bias = 1.5
+Bullets = 1
+Cycle Time = 0.3
+Reload Duration = 1.5
+Clip Size = 10
+Burst Shot Count = 1
+Burst Shot Cooldown = 0
+Bullet Gravity Scale 0.8
+Bullet Radius = 3
+Bullet Drag = 1
+Bullet Drag Bias = 0.5
+Bullet Reflect Scale = 0
+Bullet Reflect Amount = 1
+Bullet Inherit Shooter Velocity Scale = 0
+
+Bullet Speed Curve =
+ spline=
+  x = 0
+  y = 18000
+  Slope Incoming = 0
+  Slope Outgoing = 0,
+
+  x = 100
+  y = 18000
+  Slope Incoming = 0
+  Slope Outgoing = 0
+ tangents =
+  Incoming Tangent = "CURVE_TANGENT_SPLINE"
+  Outgoing Tangent = "CURVE_TANGENT_SPLINE",
+
+  Incoming Tangent = "CURVE_TANGENT_SPLINE"
+  Outgoing Tangent = "CURVE_TANGENT_SPLINE",
+ Domain Mins =
+  0,
+  1
+ Domain Maxs =
+  100
+  18000
+
+Crit Bonus Start = 1.15
+Crit Bonus End = 1.35
+Crit Bonus Start Range = 500
+Crit Bonus End Range = 1500
+Crit Bonus Against NPCs = 0.25
+Shoot Spread Penalty Per Shot = 0
+Shoot Spread Penalty Decay Delay = 0
+Shoot Spread Penalty Decay = 2
+Recoil Shot Index Recovery Time Factor = 0.25
+Can Zoom = true
+Reload Move Speed = 236.22
+
+
